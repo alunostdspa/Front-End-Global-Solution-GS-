@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/styleXS.css">
+    <link rel="stylesheet" href="css/styleSM.css">
+    <link rel="stylesheet" href="css/styleMD.css">
+    <link rel="stylesheet" href="css/styleL.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logoipsum-225.svg" alt="CxC logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="informacao.html" class="menu">Informações</a></li>
+                <li><a href="contato.html" class="menu">Contato</a></li>
+                <li><a href="login.html" class="menu">Entrar</a></li>
+                <li><a href="cadastro.html" class="btn-cadastro">Cadastre-se</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section class="descricao">
+        <div class="descricao-content">
+            <h1>O que é a carbonXchange</h1>
+            <p>É uma plataforma online que visa facilitar a emissão de créditos de carbono por produtores rurais.A
+                plataforma conecta produtores a mercados de carbono, permitindo que práticas sustentáveis e gerando
+                recompensas financeiras através da venda de créditos de carbono. </p>
+        </div>
+    </section>
+
+    <section class="contato">
+        <a href="contato.html" class="btn-primario">Registre-se agora</a>
+    </section>
+
+    <div class="layout">
+        <div class="informacoes">
+            <div class="image-info">
+                <img src="images/infografico-mercado-carbono.jpg">
+            </div>
+
+            <div class="text-info">
+                <h3>O que são créditos de carbono?</h3>
+                <br>
+                <p>São uma forma de compensação das emissões de dióxido de carbono (CO²) e outros gases de efeito
+                    estufa.
+                    Cada crédito de carbono representa uma tonelada de CO² que foi retirada da atmosfera ou evitada por
+                    alguma ação.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="layout">
+        <div class="informacoes">
+            <div class="text-info2">
+                <h3>Como um produtos rural pode gerar céditos?</h3>
+                <br>
+                <p>O produtor rural pode gerar créditos atravez de reflorestamentos, recuperação de áreas degradadas,
+                    agrofloresta, proteção de florestas e áreas preservadas.</p>
+            </div>
+
+            <div class="image-info">
+                <img src="images/19012023-Manejo-Florestal-na-Fazenda-Pacaja-da-Algar-Farming-Foto-Acervo-Algar.jpg">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "6cd9bec2-0c99-4989-bec1-1fd185e2b8fb", // o ID para essa integração.
+            region: "us-south", //região hosteada para a integração.
+            serviceInstanceID: "2ee399ae-64a4-48b7-9772-bd98afc5020f", // o ID da instancia.
+            onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function () {
+            const t = document.createElement('script');
+            t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+    </script>
+
+
+
+    <footer>
+        <p><a href="integrantes.html">&copy; 2024 CXC.</a></p>
+    </footer>
+</body>
+
+</html>
