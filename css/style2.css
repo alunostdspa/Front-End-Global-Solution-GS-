@@ -1,0 +1,519 @@
+/* styles.css */
+
+/* Resetando algumas margens e padding padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Cabeçalho */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    color: #000;
+}
+
+.header .logo img {
+    width: 120px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.menu{
+    font-size: 18px;
+}
+
+.menu:hover{
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #34d399;
+    transition: all 0.3s ease;
+}
+
+.btn-cadastro {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.btn-cadastro:hover {
+    background-color: #02c77f;
+    color: #000;
+}
+
+
+/* Seção informacao */
+.intro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.intro h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn-primario {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primario:hover {
+    background-color: #02c77f;
+}
+
+
+
+.descricao{
+    background-position: center;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8vw;
+    color: #000;
+}
+
+.descricao h1{
+    font-size: 54px;
+    margin-bottom: 30px;
+}
+
+.descricao p{
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+.descricao-content{
+    width: 50%;
+}
+
+.layout{
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8vw;
+}
+
+.informacoes{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.image-info img{
+    width: 30vw;
+    height: 700px;
+    border-radius: 10px;
+}
+
+
+.text-info{
+    width: 55%;
+    height: 60vh;
+    margin-bottom: 8vw;
+}
+
+.text-info h3{
+    justify-content: center;
+    text-align: right;
+    font-size: 3.5vw;
+    word-wrap: break-word;
+    font-weight: 800;
+    
+}
+
+.text-info p{
+    margin-left: auto;
+    text-align: right;
+    font-size: 1.8vw;
+    word-wrap: break-word;
+}
+
+.text-info2{
+    width: 40vw;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.text-info2 h3{
+    justify-content: center;
+    text-align: left;
+    font-size: 3vw;
+    margin-bottom: 30px;
+    word-wrap: break-word;
+}
+
+.text-info2 p{
+    margin-left: auto;
+    text-align: left;
+    font-size: 2vw;
+    word-wrap: break-word;
+}
+
+.contato{
+    height: 15vh;
+    margin: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Pagina de Contato*/
+
+.formBox {
+    margin: 60px;
+}
+
+.formHeader h2 {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+}
+
+.box3 {
+    display: flex;
+}
+
+.organizacao {
+    display: flex;
+}
+
+.ladoDireito {
+    margin-left: 15px;
+}
+
+label {
+    margin-left: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 0.5px solid #000;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+select{
+    margin-left: 20px; 
+    width: 100%;
+    border-radius: 5px;
+}
+
+#txtNome {
+    width: 920px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+#txtRG {
+    width: 450px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+#txtEmail {
+    width: 450px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+#txtCPF {
+    width: 450px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+#txtTel {
+    width: 450px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+legend {
+    margin-left: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.identificacao {
+    width: 60%;
+    height: 250px;
+    border: 2px solid #34d399;
+    margin: 20px;
+}
+
+.fotografia {
+    width: 25%;
+    height: 280px;
+    border: 2px solid #34d399;
+    margin: 20px 0 20px 10px;  
+}
+
+img {
+    width: 180px;
+    height: 160px;
+}
+
+#botaoEnviar {
+    width: 120px;
+    height: 30px;
+    margin-left: 20px;
+    background-color: #34d399;
+    border-radius: 5px;
+}
+
+#botaoEnviar:hover {
+    cursor: pointer;
+}
+
+.endereco {
+    width: 90%;
+    height: 320px;
+    border: 2px solid #34d399;
+    margin: 20px;
+}
+
+.flexEndereco {
+    display: flex;
+    margin: 10px;
+}
+
+#txtCar {
+    width: 450px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+#dataRegistroCar {
+    width: 450px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+#rua {
+    margin: 10px;
+}
+
+#numero {
+    margin: 10px;
+}
+
+#complemento {
+    margin: 10px;
+}
+
+#txtRua {
+    width: 630px;
+    height: 24px;
+}
+
+#txtRef {
+    width: 630px;
+    height: 24px;
+}
+
+#txtNumero {
+    width: 280px;
+    height: 24px;
+}
+
+#txtComplemento {
+    width: 280px;
+    height: 24px;
+}
+
+#txtBairro {
+    width: 397px;
+    height: 24px;
+}
+
+#txtCidade {
+    width: 397px;
+    height: 24px;
+}
+
+#sltEstado {
+    width: 397px;
+    height: 24px;
+}
+
+#bairro {
+    margin: 10px;
+}
+
+#cidade {
+    margin: 10px;
+}
+
+#estado {
+    margin: 10px;
+}
+
+
+/* pagina de login/cadastro*/
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.login-container,
+.cadastro-container {
+    background-color: #34d399 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+    width: 30%;
+    margin: 2%;
+    
+}
+.grupo-login,
+.grupo-cadastro {
+    margin-bottom: 15px;
+    text-align: left;
+}
+.grupo-login label,
+.grupo-cadastro label {
+    margin-bottom: 15px;
+}
+.grupo-login input,
+.grupo-cadastro input {
+    width: 28vw;
+}
+/*Integrantes*/
+.background{
+    padding: 5%;
+    margin: 5%;
+    background-color: #34d399;
+}
+
+.area-integrantes {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 20px; 
+}
+
+.integrantes{
+    width: 40%;
+    border-radius: 100%;
+}
+
+.integrantes-wrapper {
+    display: flex; 
+    align-items: center; 
+    gap: 15px; 
+}
+
+.info-integrante {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.info-integrante p {
+    font-size: 22px;
+    text-align: left; 
+    margin: 5px 0;
+}
+
+.info-integrante i {
+    margin: 5px 10px; 
+    text-decoration: none;
+}   
+
+.equipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
