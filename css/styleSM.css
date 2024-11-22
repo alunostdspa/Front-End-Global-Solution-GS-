@@ -1,0 +1,382 @@
+@media  (min-width: 600.1px) and (max-width:767.9px){
+
+    /* Cabeçalho */
+    .header {
+        padding: 1vw;
+    }
+
+    .header .logo img {
+        width: 10vw;
+    }
+
+    nav ul li {
+        margin-left: 1vw;
+        padding: 1vw 1vw;
+    }
+    .menu{
+        font-size: 2vw;
+    }
+
+    .menu:hover{
+        border-radius: 5vw;
+        padding: 2vw 2vw;
+    }
+
+    .btn-cadastro {
+        font-size: 2vw;
+        padding: 2vw 2vw;
+        border-radius: 5vw;
+    }
+
+    /* Seção Hero */
+    .intro-content {
+        height: 50vh;
+    }
+
+    .intro h1 {
+        font-size: 8vw;
+        margin-bottom: 10vw;
+    }
+
+    .intro p {
+        font-size: 4vw;
+        margin-bottom: 8vw;
+    }
+
+    .intro-content{
+        margin: 10px 0;
+    }
+
+    .btn-primario {
+        font-size: 1.5vw;
+        padding: 3vw 3vw;
+        border-radius: 5vw;
+        margin-top: 5vh;
+    }
+
+    /* Seção de Benefícios */
+    .infos {
+        padding: 10vw 0;
+        margin-top: 15vh;
+    }
+
+    .info {
+        max-width: 25vw;
+    }
+
+    .info h3 {
+        font-size: 2vw;
+        margin-bottom: 1vw;
+    }
+
+    .info p{
+        font-size: 2vw;
+    }
+
+    /* Rodapé */
+    footer {
+        padding: 2vw;
+        font-size: 1vw;
+    }
+
+/* Seção informacao */
+
+    .btn-primario {
+        padding: 2vw 3vw;
+        border-radius: 5vw;
+    }
+
+    .descricao{
+        height: 15vh;
+        margin-bottom: 0.5vw;
+    }
+
+    .descricao h1{
+        font-size: 4vw;
+        margin-bottom: 3vw;
+    }
+
+    .descricao p{
+        font-size: 1.5vw;
+    }
+
+    .descricao-content{
+        width: 50%;
+    }
+
+    .layout{
+        margin-bottom: 2vw;
+    }
+
+    .informacoes{
+        width: 80%;
+        margin-bottom: 10vh;
+    }
+
+    .image-info img{
+        width: 40vw;
+        height: 24vh;
+    }
+
+
+    .text-info{
+        width: 40vw;
+        height: 24vh;
+    }
+
+    .text-info h3{
+        font-size: 3vw;
+        margin-bottom: 2vw;
+        font-weight: 800;
+        
+    }
+
+    .text-info p{
+        font-size: 2vw;
+    }
+
+    .text-info2{
+        width: 45%;
+        height: 24vh;   
+    }
+
+    .text-info2 h3{
+        font-size: 3vw;
+        margin-bottom: 2vw;
+        font-weight: 800;
+    }
+
+    .text-info2 p{
+        font-size: 2vw;
+    }
+
+    .contato{
+        height: 10vh;
+    }
+
+    /*pagina de cadastro*/
+
+    .formBox {
+        margin: 5vw;
+    }
+
+    .box1 {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .formHeader h2 {
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+
+    .ladoDireito {
+        margin-left: 1vw;
+    }
+    
+    label {
+        margin-left: 1vw;
+    }
+    
+    input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 0.5px solid #000;
+        border-radius: 4px;
+        margin-left: 20px;
+    }
+    
+    select{
+        margin-left: 20px; 
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    #txtNome {
+        width: 85vw;
+        height: 24px;
+        margin-bottom: 20px;
+    }
+    
+    #txtRG {
+        width: 30vw;
+        height: 24px;
+        margin-bottom: 20px;
+    }
+    
+    #txtEmail {
+        width: 50vw;
+        height: 24px;
+        margin-bottom: 20px;
+    }
+    
+    #txtCPF {
+        width: 30vw;
+        height: 24px;
+        margin-bottom: 20px;
+    }
+    
+    #txtTel {
+        width: 30vw;
+        height: 24px;
+        margin-bottom: 20px;
+    }
+    
+    legend {
+        margin-left: 30px;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .identificacao {
+        width: 50%;
+        height: 44vh;
+        margin: 0.5vw;
+    }
+    
+    .fotografia {
+        align-items: center;
+        width: 75%;
+        height: 280px;
+        margin: 20px 0 20px 10px;  
+    }
+    
+    img {
+        margin-left: 15px;
+        width: 40vw;
+        height: 20vh;
+    }
+    
+    #botaoEnviar {
+        width: 20vw;
+        height: 4vh;
+        margin-left: 20px;
+        border-radius: 5px;
+    }
+    
+    .endereco {
+        width: 100%;
+        height: 320px;
+        border: 2px solid #34d399;
+        margin: 0;
+    }
+    
+    .flexEndereco {
+        display: flex;
+        margin: 10px;
+    }
+    
+    #txtCar {
+        width: 30vw;
+        height: 24px;
+        margin-bottom: 20px;
+    }
+    
+    #dataRegistroCar {
+        width: 25vw;
+        height: 24px;
+        margin-bottom: 20px;
+    }
+    
+    #rua {
+        width: 30vw;
+        margin: 10px;
+    }
+    
+    #numero {
+        width: 30vw;
+        margin: 10px;
+    }
+    
+    #complemento {
+        width: 30vw;
+        margin: 10px;
+    }
+    
+    #txtRua {
+        width: 30vw;
+        height: 24px;
+    }
+    
+    #txtRef {
+        width: 30vw;
+        height: 24px;
+    }
+    
+    #txtNumero {
+        width: 10vw;
+        height: 24px;
+    }
+    
+    #txtComplemento {
+        width: 30vw;
+        height: 24px;
+    }
+    
+    #txtBairro {
+        width: 30vw;
+        height: 24px;
+    }
+    
+    #txtCidade {
+        width: 30vw;
+        height: 24px;
+    }
+    
+    #sltEstado {
+        width: 30vw;
+        height: 24px;
+    }
+    
+    #bairro {
+        margin: 10px;
+    }
+    
+    #cidade {
+        margin: 10px;
+    }
+    
+    #estado {
+        margin: 10px;
+    }
+
+    /* pagina de login/cadastro*/
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .login-container,
+    .cadastro-container {
+        border-radius: 8px;
+        width: 80%;
+        margin: 2%;
+        
+    }
+    .grupo-login,
+    .grupo-cadastro {
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    .grupo-login label,
+    .grupo-cadastro label {
+        margin-bottom: 15px;
+    }
+    .grupo-login input,
+    .grupo-cadastro input {
+        width: 100%;
+    }
+
+    /*Integrantes*/
+    .integrantes{
+        width: 40vw;
+        height: 20vh;
+        border-radius: 100%;
+    }
+}
