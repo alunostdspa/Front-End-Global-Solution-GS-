@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/styleXS.css">
+    <link rel="stylesheet" href="css/styleSM.css">
+    <link rel="stylesheet" href="css/styleMD.css">
+    <link rel="stylesheet" href="css/styleL.css">
+    <script src="js/script.js" defer></script>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logoipsum-225.svg" alt="CxC logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="informacao.html" class="menu">Informações</a></li>
+                <li><a href="contato.html" class="menu">Contato</a></li>
+                <li><a href="login.html" class="menu">Entrar</a></li>
+                <li><a href="cadastro.html" class="btn-cadastro">Cadastre-se</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="cadastro-container">
+                <form id="cadastro-form">
+                    <div class="grupo-cadastro">
+                        <label for="username">Usuário :</label>
+                        <input type="text" id="username" name="username" placeholder="Digite seu usuário" required>
+                    </div>
+                    <br>
+                    <div class="grupo-cadastro">
+                        <label for="email">Email :</label>
+                        <input type="text" id="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+                    <br>
+                    <div class="grupo-cadastro">
+                        <label for="password">Senha :</label>
+                        <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+                    <div class="grupo-cadastro">
+                        <label for="password-confirma">Confirme sua Senha :</label>
+                        <input type="password" id="password-confirma" name="password-confirma"
+                            placeholder="Digite sua senha" required>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn-primario">Cadastrar-se</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p><a href="integrantes.html">&copy; 2024 CXC.</a></p>
+    </footer>
+
+</body>
+
+</html>
